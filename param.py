@@ -12,7 +12,7 @@ L1 =  500;    # Length from reservoir to ESP [m]
 L2 = 1200;    # Length from ESP to choke [m]
 V1 = 4.054;   # Pipe volume below ESP [m3]
 V2 = 9.729;   # Pipe volume above ESP [m3]
-f0 = 60;      # ESP characteristics reference freq [Hz]
+f0 = 60.0;      # ESP characteristics reference freq [Hz]
 q0_dt = 25/3600; # Downtrhust flow at f0
 q0_ut = 50/3600; # Uptrhust flow at f0
 Inp = 65;     # ESP motor nominal current [A]
@@ -21,7 +21,7 @@ b1 = 1.5e9;   # Bulk modulus below ESP [Pa]
 b2 = 1.5e9;   # Bulk modulus above ESP [Pa]
 
 M  = 1.992e8; # Fluid inertia parameters [kg/m4]
-rho = 950;    # Density of produced fluid [kg/m�?³]
+rho = 950.0;    # Density of produced fluid [kg/m�?³]
 pr = 1.26e7;  # Reservoir pressure
 PI = 2.32e-9; # Well productivy index [m3/s/Pa]
 mu  = 0.025;  # Viscosity [Pa*s]
